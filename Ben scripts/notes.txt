@@ -1,0 +1,9 @@
+Notes for running tdms analysis
+
+1. to generate lick_data file, run peaks_in_lick_data_script.m according to notes given in the word spreadsheet. Note that to run it on a single folder, put the number of the folder to be run in line 75.
+Additional parameters are
+bottom value = 0
+top value = 50
+atypical = 0
+
+2. to calculate average number of licks during response window run comparescriptforlicktrials.m
